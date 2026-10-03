@@ -75,10 +75,5 @@ Dataset: `sp500_data`, `housetasks`, `loan_data`.
 
 ---
 
-## Catatan
-- Semua notebook sudah dijalankan dari awal sampai akhir. Output dan grafiknya tersimpan di file `.ipynb`, jadi bisa langsung dilihat di GitHub.
-- Kode mengikuti kode pendamping buku, tetapi disesuaikan dengan versi library terbaru (pandas 3, scikit-learn 1.8, statsmodels 0.15). Perbedaan kecil seperti `penalty=None` untuk regresi logistik tanpa penalti, `to_numpy()`, dan `.iloc` memang disengaja.
-- Hasil yang melibatkan bilangan acak (bootstrap, permutation test, random forest) bisa sedikit berbeda dari buku dan antar eksekusi.
-
 ## Referensi
 Bruce, P., Bruce, A., & Gedeck, P. (2020). *Practical Statistics for Data Scientists* (2nd ed.). O'Reilly Media. Kode pendamping: <https://github.com/gedeck/practical-statistics-for-data-scientists>.
